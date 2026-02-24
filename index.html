@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SafeConnect App | Baixe para Android</title>
+  <meta name="description" content="Baixe o SafeConnect App para Android e tenha recursos avançados de proteção, localização e alertas em um só lugar." />
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #121a2b;
+      --accent: #3ddc84;
+      --accent-hover: #2ec26f;
+      --text: #ecf2ff;
+      --muted: #a4b0cc;
+      --border: #22314f;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #1a2642 0%, var(--bg) 55%);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    .container {
+      width: min(1100px, 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 22px 0;
+    }
+
+    .brand {
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      font-size: 1.15rem;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 36px;
+      align-items: center;
+      padding: 40px 0 70px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(61, 220, 132, 0.15);
+      color: var(--accent);
+      border: 1px solid rgba(61, 220, 132, 0.35);
+      border-radius: 999px;
+      font-size: 0.82rem;
+      padding: 8px 14px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 3.1rem);
+      line-height: 1.1;
+      margin-bottom: 18px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1.08rem;
+      margin-bottom: 28px;
+      max-width: 58ch;
+    }
+
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1rem;
+      background: var(--accent);
+      color: #09131f;
+      padding: 14px 24px;
+      border-radius: 12px;
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+
+    .cta:hover {
+      background: var(--accent-hover);
+      transform: translateY(-1px);
+    }
+
+    .cta-note {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .hero-card {
+      background: linear-gradient(160deg, #182642, #101828 60%);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 20px 70px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-card h2 {
+      font-size: 1.3rem;
+      margin-bottom: 14px;
+    }
+
+    .feature-list {
+      list-style: none;
+      display: grid;
+      gap: 10px;
+    }
+
+    .feature-list li {
+      color: #dbe6ff;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 0.95rem;
+    }
+
+    .highlights {
+      padding-bottom: 80px;
+    }
+
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .highlight {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+    }
+
+    .highlight h3 {
+      margin-bottom: 8px;
+      font-size: 1.05rem;
+    }
+
+    .highlight p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 18px 0 28px;
+      color: var(--muted);
+      font-size: 0.86rem;
+      text-align: center;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .highlights-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">SafeConnect App</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div>
+        <span class="badge">Disponível para Android 8.0+</span>
+        <h1>Proteção e monitoramento inteligente para quem você ama.</h1>
+        <p class="subtitle">
+          O SafeConnect App reúne localização em tempo real, alertas de segurança e histórico de atividades em uma interface simples e segura.
+        </p>
+        <a class="cta" href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
+          Baixar para Android
+        </a>
+        <p class="cta-note">Download rápido • Instalação em menos de 2 minutos</p>
+      </div>
+
+      <aside class="hero-card">
+        <h2>Por que escolher o SafeConnect?</h2>
+        <ul class="feature-list">
+          <li>📍 Rastreamento com atualizações em tempo real</li>
+          <li>🔔 Alertas instantâneos para eventos importantes</li>
+          <li>🛡️ Dados criptografados e controle total de privacidade</li>
+          <li>📊 Painel com histórico completo e fácil de entender</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="container highlights">
+      <div class="highlights-grid">
+        <article class="highlight">
+          <h3>Configuração guiada</h3>
+          <p>Comece em poucos passos com um processo de onboarding totalmente em português.</p>
+        </article>
+
+        <article class="highlight">
+          <h3>Leve e otimizado</h3>
+          <p>Aplicativo rápido, com baixo consumo de bateria e excelente desempenho.</p>
+        </article>
+
+        <article class="highlight">
+          <h3>Suporte dedicado</h3>
+          <p>Conte com atendimento especializado para dúvidas durante o uso do app.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> SafeConnect App. Todos os direitos reservados.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
