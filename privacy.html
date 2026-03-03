@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade | SafeConnect App</title>
+  <meta name="description" content="Política de Privacidade do SafeConnect App." />
+  <style>
+    :root { --bg:#0b1220; --card:#121a2b; --text:#ecf2ff; --muted:#a4b0cc; --accent:#3ddc84; --border:#22314f; }
+    * { box-sizing:border-box; margin:0; padding:0; font-family:"Inter","Segoe UI",Roboto,Arial,sans-serif; }
+    body { background: radial-gradient(circle at top, #1a2642 0%, var(--bg) 55%); color:var(--text); line-height:1.6; }
+    .container { width:min(900px,92%); margin:0 auto; }
+    header { padding:28px 0 16px; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:16px; padding:24px; margin:20px 0 40px; }
+    h1 { font-size:clamp(1.8rem,3vw,2.5rem); margin-bottom:10px; }
+    h2 { margin:18px 0 8px; font-size:1.2rem; }
+    p, li { color:#dbe6ff; }
+    .muted { color:var(--muted); }
+    ul { margin-left:20px; }
+    footer { border-top:1px solid var(--border); padding:16px 0 24px; color:var(--muted); text-align:center; font-size:0.88rem; }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <a href="index.html">← Voltar para página inicial</a>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Política de Privacidade</h1>
+      <p class="muted">Última atualização: <span id="date"></span></p>
+
+      <h2>1. Informações coletadas</h2>
+      <p>Podemos coletar informações fornecidas por você durante o uso do aplicativo, como dados de cadastro, preferências de uso e dados técnicos do dispositivo para melhorar a experiência.</p>
+
+      <h2>2. Como usamos os dados</h2>
+      <ul>
+        <li>Fornecer e manter funcionalidades do app.</li>
+        <li>Melhorar desempenho, segurança e estabilidade.</li>
+        <li>Enviar comunicações relacionadas ao serviço.</li>
+      </ul>
+
+      <h2>3. Compartilhamento</h2>
+      <p>Não vendemos dados pessoais. O compartilhamento pode ocorrer somente quando necessário para operação técnica, cumprimento legal ou proteção de direitos.</p>
+
+      <h2>4. Segurança</h2>
+      <p>Aplicamos medidas razoáveis de segurança para proteger as informações contra acesso não autorizado, alteração, divulgação ou destruição.</p>
+
+      <h2>5. Seus direitos</h2>
+      <p>Você pode solicitar acesso, correção ou exclusão dos seus dados por meio do e-mail de contato: <a href="mailto:contato@spousalspy.store">contato@spousalspy.store</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> SafeConnect App
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('date').textContent = new Date().toLocaleDateString('pt-BR');
+  </script>
+</body>
+</html>
